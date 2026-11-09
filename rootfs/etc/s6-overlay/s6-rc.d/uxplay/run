@@ -1,0 +1,10 @@
+#!/command/with-contenv bashio
+# shellcheck shell=bash
+# ==============================================================================
+# Home Assistant Community App: Example
+# Runs example1 script
+# ==============================================================================
+
+bashio::log.info "Starting UxPlay..."
+
+uxplay -vs 0 -async -n Hangar -nh
